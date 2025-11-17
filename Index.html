@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favour Ojiridike Resume Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4f46e5',
+                        secondary: '#10b981',
+                        accent: '#f59e0b',
+                        dark: '#1e293b',
+                        light: '#f8fafc'
+                    },
+                    animation: {
+                        'gradient-x': 'gradient-x 8s ease infinite',
+                    },
+                    keyframes: {
+                        'gradient-x': {
+                            '0%, 100%': {
+                                'background-position': '0% 50%'
+                            },
+                            '50%': {
+                                'background-position': '100% 50%'
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-light text-dark font-sans antialiased">
+    <custom-navbar></custom-navbar>
+    
+    <main class="container mx-auto px-4">
+        <!-- Hero Section -->
+        <section class="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-primary via-purple-600 to-accent bg-animate-gradient">
+            <div class="max-w-3xl mx-auto backdrop-blur-sm bg-white/10 p-8 rounded-xl">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 text-white">Favour Ojiridike</h1>
+                <p class="text-xl md:text-2xl mb-8 text-white/90">Data Analysis | Machine Learning | AI Development</p>
+                <div class="flex gap-4 justify-center">
+                    <a href="#about" class="px-6 py-3 bg-white text-primary rounded-lg hover:bg-white/90 transition font-medium">Explore My Journey</a>
+                    <a href="Images/Resume/Favour_Ojiridike.pdf" download class="px-6 py-3 border-2 border-white text-white rounded-lg hover:bg-white/10 transition font-medium flex items-center gap-2">
+                        <i data-feather="download"></i>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="mt-16 animate-bounce">
+                <a href="#about" class="text-white">
+                    <i data-feather="chevron-down" class="w-12 h-12"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20">
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="md:w-1/3">
+                    <img src="Images/About/Favorite.png" alt="Profile" class="rounded-lg shadow-lg w-full">
+                </div>
+                <div class="md:w-2/3">
+                    <h2 class="text-4xl font-bold mb-6 text-primary">About Me</h2>
+                    <p class="text-lg mb-6">I am an entry level tech savvy who is very interested in data analysis, machine learning, and artificial intelligence. My professional experience has enabled me to acquire practical experience in, bank, technology, and data annotation of large language models.
+My NYSC experience was at the Federal Mortgage Bank where I assisted in analytical activities and enhancing the accuracy and reporting procedures. I have also served as an Assistant HR in a software firm and enhanced my knowledge in organisational processes and talent operations. 
+</p>
+<p class="text-lg mb-6">
+Further, my work experience as a Language Data Annotator at Awarri in Lagos provided me with a hands-on experience in the development of AI that was used to translate and store language data to assist in the training of multilingual LLMs.
+ My goal is to continue building innovative solutions at the intersection of data, intelligence, and technology, while constantly advancing my skills and contributing to meaningful digital transformation.
+    
+</p>
+<p>
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-center gap-2">
+                            <i data-feather="briefcase" class="text-secondary"></i>
+                            <span class="highlight font-bold">Banking Tech</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i data-feather="cpu" class="text-secondary"></i>
+                            <span class="highlight font-bold">Machine Learning</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i data-feather="database" class="text-secondary"></i>
+                            <span class="hightlight font-bold">Data Analysis</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i data-feather="code" class="text-secondary"></i>
+                            <span class="heightlight font-bold">AI Development</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <a href="/certifications.html" class="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition">
+                            View Certifications
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                        <a href="/projects.html" class="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary text-primary rounded-lg hover:bg-primary/10 transition">
+                            My Projects
+                            <i data-feather="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Journey -->
+        <section id="journey" class="py-20 bg-gradient-to-r from-light to-white">
+            <h2 class="text-4xl font-bold mb-12 text-center text-primary">Professional Journey</h2>
+            <div class="relative max-w-4xl mx-auto">
+                <div class="absolute left-4 md:left-1/2 h-full w-0.5 bg-primary/20 -translate-x-1/2"></div>
+                
+                <div class="space-y-12">
+                    <!-- Current Bank -->
+                    <div class="relative flex flex-col md:flex-row justify-between items-center">
+                        <div class="md:w-5/12 md:text-right mb-4 md:mb-0 md:pr-8">
+                            <h3 class="text-2xl font-bold text-secondary">Customer Service Support</h3>
+                            <p class="text-primary">TajBank Lagos</p>
+                            <p class="text-sm"> <span style="font-style:italic" >Present </p>
+                        </div>
+                        <div class="hidden md:block w-8 h-8 rounded-full bg-primary absolute left-1/2 -translate-x-1/2"></div>
+                        <div class="md:w-5/12 md:pl-8">
+                            <p>I provided exceptional customer support by addressing inquiries, resolving issues, and ensuring a smooth banking experience. I guided clients in accessing financial products and services, contributing to improved satisfaction and retention. I also handled account transactions, loan processing, and service requests while maintaining strict compliance with banking regulations.</p>
+                        </div>
+                    </div>
+
+                    <!-- Software Company -->
+                    <div class="relative flex flex-col md:flex-row-reverse justify-between items-center">
+                        <div class="md:w-5/12 md:text-left mb-4 md:mb-0 md:pl-8">
+                            <h3 class="text-2xl font-bold text-secondary">Assistant HR(Volunteer) </h3>
+                            <p class="text-primary">Belsoft Company</p>
+                            <p class="text-sm"> <span style="font-style:italic">July 2024 - December 2024</p>
+                        </div>
+                        <div class="hidden md:block w-8 h-8 rounded-full bg-primary absolute left-1/2 -translate-x-1/2"></div>
+                        <div class="md:w-5/12 md:pr-8 md:text-right">
+                            <p>I assist in virtual onboarding by coordinating orientation sessions, preparing welcome kits, and ensuring new hires have the tools they need. I manage core HR administrative tasks such as maintaining digital employee records, tracking attendance, handling HR emails, and scheduling virtual interviews. I also support performance management by monitoring task progress through project management tools, gathering evaluation data, and preparing key HR documents including contracts, offer letters, and other official correspondence.</p>
+                        </div>
+                    </div>
+
+                    <!-- Awarri -->
+                    <div class="relative flex flex-col md:flex-row justify-between items-center">
+                        <div class="md:w-5/12 md:text-right mb-4 md:mb-0 md:pr-8">
+                            <h3 class="text-2xl font-bold text-secondary">Language Data Annotator(Contract)</h3>
+                            <p class="text-primary">Awarri Lagos</p>
+                            <p class="text-sm"> <span style="font-style:italic">May 2024 - November 2024 </p>
+                        </div>
+                        <div class="hidden md:block w-8 h-8 rounded-full bg-primary absolute left-1/2 -translate-x-1/2"></div>
+                        <div class="md:w-5/12 md:pl-8">
+                            <p>I translated English text into Nigerian languages and annotated both text and audio data according to strict linguistic guidelines. I recorded high-quality audio samples, cleaned and verified datasets for accuracy, and reported issues to improve overall data quality and workflow. I also ensured timely delivery of assigned datasets while maintaining confidentiality and handling sensitive linguistic data responsibly.</p>
+                        </div>
+                    </div>
+
+                    <!-- Federal Mortgage Bank -->
+                    <div class="relative flex flex-col md:flex-row-reverse justify-between items-center">
+                        <div class="md:w-5/12 md:text-left mb-4 md:mb-0 md:pl-8">
+                            <h3 class="text-2xl font-bold text-secondary">Customer Representative/Refund Clerk</h3>
+                            <p class="text-primary">Federal Mortgage Bank of Nigeria,Enugu .</p>
+                            <p class="text-sm"> <span style="font-style:italic">January 2023 - December 2023 </p>
+                        </div>
+                        <div class="hidden md:block w-8 h-8 rounded-full bg-primary absolute left-1/2 -translate-x-1/2"></div>
+                        <div class="md:w-5/12 md:pr-8 md:text-right">
+                            <p>I assisted clients with mortgage applications by ensuring accurate documentation and addressing inquiries through strong communication skills. I processed refunds, maintained detailed records for audits, and handled administrative tasks such as scanning, phone calls, emails, and filing. I also prepared monthly National Housing Fund documents, supported data entry for the loan and data department, and contributed to improving customer satisfaction through effective issue resolution.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="py-20">
+            <h2 class="text-4xl font-bold mb-12 text-center text-primary">Education</h2>
+            <div class="max-w-2xl mx-auto grid gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <h3 class="text-2xl font-bold text-secondary mb-2">Post Graduate Diploma (PGD), Business Administration</h3>
+                    <p class="text-primary mb-2">Ajayi Crowther University Oyo State</p>
+                    <p class="text-sm text-dark/70"> <span style="font-style:italic">2024 - 2025</p>
+                    <p class="mt-4">Developed strong analytical and managerial skills, with exposure to organisational processes, business strategy, and data-driven decision-making. Strengthened my understanding of corporate operations and enhanced my ability to support HR, finance, and administrative functions.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <h3 class="text-2xl font-bold text-secondary mb-2">Higher National Diploma(HND), Mass Communication</h3>
+                    <p class="text-primary mb-2">Federal Polytechnic Nekede Owerri Imo State</p>
+                    <p class="text-sm text-dark/70"> <span style="font-style:italic">2017 - 2021</p>
+                    <p class="mt-4">Gained solid communication, research, and content development skills across digital and traditional media. Built proficiency in writing, reporting, and conveying information clearly skills that support my work in data documentation, analysis, and AI projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="py-20 bg-gradient-to-r from-light to-white">
+            <h2 class="text-4xl font-bold mb-12 text-center text-primary">Technical Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="bar-chart-2" class="w-10 h-10 text-secondary mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Data Analysis</h3>
+                    <p>Python, Data visualization, Excel, Data storytelling, SQL, Pandas, NumPy, Power BI</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="cpu" class="w-10 h-10 text-secondary mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Machine Learning</h3>
+                    <p>Scikit-learn, TensorFlow, PyTorch, NLP</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="cloud" class="w-10 h-10 text-secondary mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">AI Development</h3>
+                    <p>LLMs, Transformers, LangChain, OpenAI</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <i data-feather="users" class="w-10 h-10 text-secondary mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Soft Skills</h3>
+                    <p>Communication, Teamwork, Adaptability, Problem-Solving, Time-Management, Collaboration</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="py-20">
+            <h2 class="text-4xl font-bold mb-12 text-center text-primary">Get In Touch</h2>
+            <div class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+                <form class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-dark mb-1">Name</label>
+                        <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-dark mb-1">Email</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-dark mb-1">Message</label>
+                        <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary"></textarea>
+                    </div>
+                    <button type="submit" class="w-full px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition font-medium">
+                        Send Message
+                    </button>
+                </form>
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                            <i data-feather="mail" class="text-primary"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm text-dark/70">Email</p>
+                            <p class="font-medium">favourojiridike@outlook.com</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 mt-4">
+    <a href="https://www.linkedin.com/in/favour-ojiridike/" target="_blank" class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-primary" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.25 8.5h4.5V24h-4.5zM8.75 8.5h4.3v2.1h.06c.6-1.14 2.1-2.35 4.33-2.35 4.63 0 5.49 3.05 5.49 7.02V24h-4.5v-6.9c0-1.65-.03-3.77-2.3-3.77-2.31 0-2.66 1.8-2.66 3.65V24H8.75z"/>
+        </svg>
+    </a>
+    <div>
+        <p class="text-sm text-dark/70">LinkedIn</p>
+        <p class="font-medium">Click the icon</p>
+    </div>
+</div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                            <i data-feather="phone" class="text-primary"></i>
+                        </div>
+                        <div>
+                            <p class="text-sm text-dark/70">Phone</p>
+                            <p class="font-medium">+234 811 662 3375</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+    
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
